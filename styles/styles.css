@@ -641,6 +641,11 @@ a, button {
   border-radius: 50%;
   -webkit-box-shadow: 3px 3px 3px #dadada, -3px -3px 3px #fafafa;
           box-shadow: 3px 3px 3px #dadada, -3px -3px 3px #fafafa;
+           height: 450px;
+          width: 450px;
+          display: flex;
+          margin-left: 90px;
+          justify-content: flex-end;
 }
 
 .about .personal-info ul li {
@@ -1281,7 +1286,7 @@ a, button {
     .flower {
       display: grid;
       grid-template-columns: repeat(6, 50px);
-      grid-template-rows: repeat(6, 50px);
+      grid-template-rows: repeat(6, 40px);
     }
 
     .big-petal {
@@ -1390,4 +1395,9 @@ a, button {
 @keyframes showPetals {
     from {opacity: 0;}
     to {opacity: 1;}
+}
+
+
+.wrap{
+  margin-right: 80px;
 }
